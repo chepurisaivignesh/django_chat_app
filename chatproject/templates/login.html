@@ -1,0 +1,10 @@
+<h1>Login</h1>
+
+<form action="/checkroom" method="POST">
+    {% csrf_token %}
+    <h3>Room Code</h3>
+    <input type="text" name="roomcode" id="">
+    <h3>Username</h3>
+    <input type="text" name="username" id="">
+    <input type="submit" value="Submit">
+</form>
